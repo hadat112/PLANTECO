@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__app {
+  height: 100%;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  height: 100%;
+  background-color: #F1F2F7;
+}
